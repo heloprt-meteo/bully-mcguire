@@ -15,7 +15,7 @@ def chouin(update: Update, context: CallbackContext) -> None:
 
 def main():
     # Utilisez le token du bot à partir du fichier de configuration
-    updater = Updater(config.TOKEN, use_context=True)
+    updater = Updater(config.TOKEN)
 
     dp = updater.dispatcher
 
